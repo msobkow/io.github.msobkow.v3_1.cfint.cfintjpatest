@@ -64,6 +64,9 @@ public class CFIntJpaTestStartupListener {
 		ICFSecSchema.getBackingCFSec().wireTableTableInstances();
 		ICFIntSchema.getBackingCFInt().wireTableTableInstances();
 
+		ICFSecSchema.getBackingCFSec().bootstrapSchema();
+		ICFIntSchema.getBackingCFInt().bootstrapSchema();
+
         System.err.println("Executing testCFSec.performTests()");
         try {
             String response = testCFSec.performTests(null);
