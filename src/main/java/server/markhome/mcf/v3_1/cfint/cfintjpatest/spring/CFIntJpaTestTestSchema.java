@@ -2,7 +2,7 @@
 // Description: Spring JPA tests for CFInt for the JpaTest program
 
 /*
- *	io.github.msobkow.CFInt
+ *	server.markhome.mcf.CFInt
  *
  *	Copyright (c) 2016-2026 Mark Stephen Sobkow
  *	
@@ -33,7 +33,7 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfint.cfintjpatest.spring;
+package server.markhome.mcf.v3_1.cfint.cfintjpatest.spring;
 
 import java.util.*;
 
@@ -49,12 +49,12 @@ import org.springframework.transaction.annotation.Transactional;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.NoResultException;
 
-import io.github.msobkow.v3_1.cflib.*;
-import io.github.msobkow.v3_1.cflib.dbutil.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.*;
-import io.github.msobkow.v3_1.cfsec.cfsec.jpa.*;
-import io.github.msobkow.v3_1.cfint.cfint.*;
-import io.github.msobkow.v3_1.cfint.cfint.jpa.*;
+import server.markhome.mcf.v3_1.cflib.*;
+import server.markhome.mcf.v3_1.cflib.dbutil.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.*;
+import server.markhome.mcf.v3_1.cfsec.cfsec.jpa.*;
+import server.markhome.mcf.v3_1.cfint.cfint.*;
+import server.markhome.mcf.v3_1.cfint.cfint.jpa.*;
 
 @Service("JpaTestCFInt")
 public class CFIntJpaTestTestSchema {

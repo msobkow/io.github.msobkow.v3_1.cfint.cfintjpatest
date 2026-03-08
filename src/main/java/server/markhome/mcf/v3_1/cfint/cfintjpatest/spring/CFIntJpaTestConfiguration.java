@@ -2,7 +2,7 @@
 // Description: Java 25 Configuration of the JpaTest application
 
 /*
- *	io.github.msobkow.CFInt
+ *	server.markhome.mcf.CFInt
  *
  *	Copyright (c) 2016-2026 Mark Stephen Sobkow
  *	
@@ -33,12 +33,12 @@
  *	
  */
 
-package io.github.msobkow.v3_1.cfint.cfintjpatest.spring;
+package server.markhome.mcf.v3_1.cfint.cfintjpatest.spring;
 
 import java.util.Properties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import io.github.msobkow.v3_1.cfint.cfintjpatest.CFIntJpaTest;
+import server.markhome.mcf.v3_1.cfint.cfintjpatest.CFIntJpaTest;
 
 @Configuration
 public class CFIntJpaTestConfiguration {
